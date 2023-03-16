@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+        ::-webkit-scrollbar { 
+        width: 5px; 
+        } 
+        ::-webkit-scrollbar-track { 
+        background: white; 
+        border-radius:10px; 
+        } 
+        ::-webkit-scrollbar-thumb { 
+        background: #33D9EC; 
+        border-radius:2.5px; 
+        height:25px; 
+        } 
+        ::-webkit-scrollbar-thumb:hover { 
+        background: #33D9EC; 
+        } 
+        @font-face { 
+        font-family:CoolveticaRg-Regular; 
+        src:url('coolvetica rg.ttf'); 
+        } 
+        ul { 
+        list-style-type:none; 
+        margin:0; 
+        padding:0; 
+        background-color:rgb(29, 30, 31); 
+        position: static; 
+        height:auto; 
+	width: auto;
+        overflow:auto; 
+        border-radius:10px; 
+        box-sizing: border-box;
+        } 
+        li a { 
+        font-family: Arial; 
+        color:white; 
+        display:block; 
+        align-items: center; 
+        padding: 12px 70px; 
+        text-decoration:none; 
+        text-align:center; 
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+        } 
+        li a.active { 
+        background-color:#303032; 
+        color:#33D9EC; 
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+        } 
+        li a:hover:not(.active) { 
+        background-color:white; 
+        color:White; 
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+        }
+
+
+  p { 
+        color: rgb(var(--color-gray-500));
+        font-family: 'Roboto Flex',sans-serif; 
+        padding: 8px 24px; 
+        text-transform: uppercase;
+  }
+
+  .watchlist--header {    
+        color: rgb(var(--color-gray-500));
+        font-family: 'Roboto Flex',sans-serif;
+        padding: 8px 24px;
+        text-transform: uppercase;
+  }
+
+  body{ 
+        background-color:rgb(29, 30, 31);
+  }
+
+  </style>
+  <title></title>
+</head>
+<body>
+  <br>
+
+  <ul>
+    <br>
+    <li>
+      <a href="homepage2.html" target="One"><image src="img/22.png" width="20px" height="17px">Home</a>
+    </li><br>
+    <li>
+      <a href="profile.html" target="One">Schedule</a>
+    </li><br>
+    <li>
+      <a href="image.html" target="One">Trending</a>
+    </li><br>
+    <li>
+      <a href="info.html" target="One">Information</a>
+    </li><br>
+    <li>
+      <a href="sources.html" target="One">Sources</a>
+    </li>
+    <hr>
+    <br>
+    <div class="watchlist--header">
+      Watching
+    </div>
+    <p class="watchlist--header">Gizmo anime channel for free.</p>
+  </ul>
+</body>
+</html>

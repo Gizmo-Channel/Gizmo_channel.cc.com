@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration</title>
+  <style>
+        body { 
+        background-image: url("img/homepage.jpg");
+        background-repeat: no-repeat;   
+        background-size: cover; 
+  }
+
+  font face{ 
+        font-family: coolveticaRg-regular;
+        src: url coolveticaRg ttf;
+  }
+  center{ 
+        font-family: coolveticaRg-regular;
+        color:#0F193B;
+        font-size: 40px;
+        text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  p{
+        font-family: coolveticaRg-regular;
+        color:#33D9EC;
+        text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  #boxing{ 
+        border-radius: 10px;
+        box-shadow: 2px 2px 3px;
+        background-image: linear gradient(#0F193B,black);
+        height: auto;
+ 	padding: 3px;
+  }
+  #box { 
+ 	padding: 3px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 3px;
+        background-image: linear gradient(#0F193B,black);
+        width: auto;
+        height: auto;
+  }
+
+  ul { 
+        list-style-type: none; 
+  }
+
+  img {
+        margin: 0cm 10cm 0cm 12cm;
+  }
+  </style>
+</head>
+<body>
+  <img src="img/31.png" height="auto" width="500" alt="gizmo">
+ <table id="box" width="450" align="center" bgcolor="pink" border="3">
+    <tr>
+      <td>
+        <center id="head">
+          Registration Form
+        </center>
+      </td>
+    </tr>
+  </table>
+  <ul>
+    <form method="post" action="login.html" onsubmit="submit" verify()" target="_parent">
+      <table id="boxing" width="550" align="center" bgcolor="pink" border="3">
+        <tr>
+          <td>
+            <ul>
+              <li><label id="formhead" for="userid">Username:</label><br>
+              <input type="text" required="required" name="userid" placeholder="Username"><br></li>
+              <li><label id="formhead" for="password">Password:</label><br>
+              <input type="password" required="required" name="password" placeholder="Password"><br></li>
+              <li><label id="formhead" for="email">Email:</label><br>
+              <input type="email" required="required" name="email" placeholder="Sample.Gizmo@gmail.com"><br>
+              <br>
+              <select>
+                <option value="default">
+                  Select Country
+                </option>
+                <option value="Ph">
+                  Philippines
+                </option>
+                <option value="Kr">
+                  Korea
+                </option>
+                <option value="Ch">
+                  China
+                </option>
+                <option value="Jp">
+                  Japan
+                </option>
+              </select> <select>
+                <option value="default">
+                  Select Province
+                </option>
+                <option value="Bohol">
+                  Bohol
+                </option>
+                <option value="Bicol">
+                  Bicol
+                </option>
+                <option value="Davao">
+                  Davao
+                </option>
+                <option value="IloIlo">
+                  IloIlo
+                </option>
+              </select><br>
+              <br></li>
+            </ul>
+            <ul>
+              <li><label id="formhead" for="zipcode">Zipcode:</label><br>
+              <input type="zipcode" required="required" name="zipcode" placeholder="1121"><br>
+              <br>
+              <input id="sub" type="submit" value="Submit"></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </ul>
+
+</body>
+</html>
